@@ -1,4 +1,7 @@
 #!/usr/bin/perl -w
+# Date: 27/09/2017
+# A perl program to track the leader of a community given input files
+
 open F, '<', $ARGV[0];
 while(<F>) {
 	($first, $second) = $_ =~ /^(\w+) (\w+)/;
